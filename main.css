@@ -1,0 +1,196 @@
+body {
+    margin: 0px;
+    font-family: 'Brands', sans-serif;
+    background-image: linear-gradient(to bottom, rgb(55, 62, 105), rgb(50, 56, 97), rgb(44, 50, 89), rgb(39, 44, 82), rgb(33, 38, 74), rgb(28, 32, 66), rgb(26, 29, 61), rgb(24, 27, 55), rgb(22, 24, 50), rgb(19, 21, 44), rgb(17, 19, 39), rgb(15, 16, 33));
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-bottom: 100px;
+}
+@font-face { 
+    font-family: 'Brands';
+    src: url('webfonts/fa-brands-400.ttf');
+}
+.header {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    flex-direction: row;
+}
+.header__icon-block {
+    display: flex;
+    flex-direction: row;
+}
+.header__icon-block_image {
+    width: 52px;
+    height: 50px;
+}
+.header__icon-block_text {
+    color: aliceblue;
+    font-size: 28px;
+    margin: 10px;
+}
+.header__text-block {
+    display: flex;
+    flex-direction: row;  
+}
+.header__text-block_txt {
+    color: aliceblue;
+    margin: 20px 5px 20px 30px ;
+}
+.header__text-block_lang {
+    color: aliceblue;
+    margin: 20px 20px;
+    border-left: 1px solid aliceblue;
+    padding-left: 30px;
+}
+.header__text-block_btn {
+    color: #00F3BC ;
+    margin: 10px 15px;
+    border: 2px solid #00F3BC;
+    padding: 10px;
+    border-radius: 20px;
+}
+.menu {
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+.background {
+    margin-left: 250px;
+    height: 700px;
+    display: flex;
+    justify-content: end;
+    border-radius: 40px 0px 0px 0px;
+    background-image: linear-gradient(to bottom, rgb(55, 62, 105), rgb(53, 59, 101), rgb(50, 57, 98), rgb(48, 54, 94), rgb(45, 51, 91), rgb(43, 48, 87), rgb(40, 46, 84), rgb(38, 43, 80), rgb(35, 40, 77), rgb(33, 37, 73), rgb(30, 35, 70), rgb(28, 32, 66));
+}   
+.menu__text-block {
+    margin: 150px 0px;
+}
+.menu__text-block_title {
+    color: aliceblue;
+    font-size: 70px;
+    letter-spacing: 3px;
+    margin: 15px 0px;
+}
+.menu__text-block_txt {
+    color: gray;
+    font-size: 15px;
+}
+.menu__text-block_btn {
+    color: aliceblue; 
+    border: 0px solid #00A9F3;
+    background-color: #00A9F3;
+    width: 180px;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.menu__image {
+    margin: 0px auto;
+    width: 1250px;
+    background-image: url(images/svgex.svg);
+}
+
+.features {
+    max-width: 1000px;
+    margin: 40px auto;
+}
+hr {
+    width: 120px;
+    margin: 20px auto;
+}
+.features__title {
+    margin: 0px auto;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 160px;
+    font-size: 30px;
+}
+.features__row {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+.features__block {
+    margin: 0px 10px;
+}
+.features__block_bg{
+    position: relative;
+}
+.features__block_img-1 {
+    position: absolute;
+    top: 1060px;
+    margin-left: 38px;
+}
+.features__block_img-3 {
+    position: absolute;
+    top: 1060px;
+    margin-left: 38px;
+}
+.features__block_img-center {
+    position: absolute;
+    top: 1010px;
+    margin-left: 38px;
+}
+.features__block_txt-center {
+    position: absolute;
+    top: 1200px;
+    margin-left: 35px;
+}
+.features__block_txt-1 {
+    position: absolute;
+    top: 1200px;
+    margin-left: 60px;
+}
+.features__block_txt-3 {
+    position: absolute;
+    top: 1200px;
+    margin-left: 60px;
+}
+.info-section { 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 40px auto;
+    max-width: 1300px;
+}
+.info-section__image {
+    width: 1200px;
+    height: 700px;
+    margin: 0px auto;
+    background-image: url(images/el4.svg);
+}
+.info-section__txtblock {
+    text-align: end;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+.info-section__title {
+    color: aliceblue;
+    font-size: 40px;
+    text-align: end;
+    margin-right: 0px;
+    margin-top: 220px;
+}
+.info-section__txt {
+    color: gray;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+.info-section__btn {
+    color: #00F3BC ;
+    border: 2px solid #00F3BC;
+    padding: 15px;
+    border-radius: 40px;
+    width: 200px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 40px;
+    font-size: 20px;
+}

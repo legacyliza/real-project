@@ -1,0 +1,159 @@
+@media screen and (max-width: 420px) {
+body {
+    margin: 0px;
+    width: 100%;
+}
+.header {
+    max-width: 420px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:  column;
+}
+.header__icon-block_text {
+   display: none;
+}
+.header__icon-block_image {
+    width: 54px;
+    margin: 10px 30px;
+}
+.header__text-block {
+    display: none;
+}  
+.header__text-block_mq {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    color: #00F3BC;
+    background-image: url(images/png-transparent-computer-icons-massachusetts-wage-law-drawing-bankruptcy-menu-miscellaneous-angle-text.png);
+    width: 300px;
+}
+.header__text-block_mq:hover {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+} 
+
+.background {
+  margin: 0px auto;
+
+}
+.menu {
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+}
+.menu__text-block {
+    order: 2;
+    margin: 10px 30px;
+}
+.menu__image {
+    order: 1;
+    width: 350px;
+    height: 400px;
+    background-image: url(images/Group_115.svg);
+}
+.menu__text-block_title {
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+.menu__text-block_btn {
+    width: 300px;
+}
+hr {
+    width: 50px;
+    border: 1px solid #00F3BC;
+}
+.features__row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+}
+.features__title {
+    margin-bottom: 50px;
+    font-size: 27px;
+}
+.features__block_bg{
+    margin: 60px auto;
+    width: 100%;
+    height: 100px;
+}
+.features__block_img-1 {
+    position: absolute;
+    top: 1000px;
+    margin-left: 38px;
+}
+.features__block_img-3 {
+    position: absolute;
+    top: 1450px;
+    margin-left: 50px;
+}
+.features__block_img-center {
+    position: absolute;
+    top: 1200px;
+    margin-left: 45px;
+}
+.features__block_txt-center {
+    position: absolute;
+    top: 1390px;
+    margin-left: 40px;
+}
+.features__block_txt-1 {
+    position: absolute;
+    top: 1140px;
+    margin-left: 70px;
+}
+.features__block_txt-3 {
+    position: absolute;
+    top: 1600px;
+    margin-left: 70px;
+}
+.info-section { 
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 400px;
+}
+.info-section__image {
+    width: 300px;
+    max-height: 300px;
+   margin: 0px auto;
+  background-repeat: no-repeat;
+   background-image: url(images/Group_118.svg);
+   position: absolute;
+   top: 1840px;
+   left: 50px;
+
+}
+.info-section__txtblock {
+    max-width: 400px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.info-section__title {
+    color: aliceblue;
+    font-size: 30px;
+    margin: 0px auto;
+    margin-bottom: 400px;
+    margin-top: 20px;
+    text-align: center;
+}
+.info-section__txt {
+    color: gray;
+    font-size: 15px;
+    margin: 20px 50px;
+}
+.info-section__btn {
+    color: #00F3BC ;
+    border: 2px solid #00F3BC;
+    padding: 15px;
+    border-radius: 40px;
+    width: 200px;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 20px;
+}
+
